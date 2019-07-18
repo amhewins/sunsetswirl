@@ -1,0 +1,445 @@
+/*
+Theme Name: Sunset Swirl
+Author: Arcadia
+Description: New Sunset Swirl website
+Version: 0.0.1
+*/
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+strong {
+  color: white;
+}
+/* Menu Styles */
+.navbar {
+  background-color: transparent;
+  max-width: 1200px;
+}
+.header-navigation-container {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 3;
+  max-width: 1200px;
+}
+.header-navigation-container ul {
+  list-style-type: none;
+}
+.header-navigation-container li {
+  display: inline-flex;
+}
+.header-navigation-container a {
+  color: black;
+  padding: 10px 15px 8px 15px;
+}
+.header-navigation-container a:hover {
+  text-shadow: none;
+  color: #C5168D;
+  background-color: transparent !important;
+}
+.button {
+  background: transparent !important;
+  border: transparent !important;
+  border-color: transparent !important;
+  color: #C5168D !important;
+}
+.button:hover {
+  background-color: #C5168D !important;
+  color: white !important;
+}
+button, .button, .navbar-burger {
+  border-color: transparent !important;
+  border: transparent !important;
+}
+.navbar-burger {
+  height: 5rem;
+  padding-right: 80px;
+}
+.navbar-burger span {
+  height: 2px;
+}
+.navbar-burger:hover {
+  background-color: rgba(31, 31, 31, 0.6);
+}
+.mobile-nav-styles a {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.is-active{
+  background-color: rgba(31, 31, 31, 0.8);
+}
+.button.is-active {
+  color: white;
+}
+.mobile-nav-styles a:hover {
+  color: #EC857D;
+}
+
+/* Body Styles */
+body {
+  min-height: 100%;
+}
+.max-width-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  padding: 15px;
+  font-family: 'Satisfy', cursive;
+  text-shadow: 2px 1px 8px rgba(0,0,0,0.53);
+}
+@media screen and (max-width: 1032px) {
+  .title {
+    font-size: 65px;
+    margin: 95px;
+  }
+}
+.home-container {
+  background-color: #C5168D;
+}
+.home-about-container {
+  margin-top: -230px;
+}
+.home-flavor-container {
+  background-color: #f6e2f145;
+}
+.about-us-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.mainstay {
+  padding-top: 4.5rem;
+  color: #3E327A;
+  margin-top: 0 !important;
+}
+.left-info-box {
+  color: white;
+  width: 50%;
+  padding: 145px 70px;
+  float: left;
+  height: 400px;
+    margin-top: 115px;
+}
+.find-us-left {
+  padding: 80px 70px;
+  margin-top: 115px;
+}
+.picture-right {
+  float: right;
+  width: 50%;
+  max-height: 400px;
+  margin-top: 115px;
+}
+.right-info-box {
+  color: white;
+  width: 50%;
+  padding: 125px 70px;
+  float: right;
+  height: 400px;
+  margin-top: 115px;
+}
+.find-us-right {
+  padding: 105px 70px;
+  margin-top: 115px;
+}
+.picture-left {
+  float: left;
+  width: 50%;
+  max-height: 400px;
+}
+img {
+  height: 400px;
+}
+@media screen and (max-width: 1032px) {
+  .left-info-box {
+    width: 100%;
+    height: 290px;
+    margin: 0;
+  }
+  .right-info-box {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .picture-right {
+    width: 100%;
+    margin: 0;
+  }
+  .picture-left {
+    width: 100%;
+    margin: 0;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+  .title {
+    font-size: 45px;
+    margin: 60px;
+  }
+}
+@media screen and (max-width: 833px) {
+  .left-info-box {
+    padding: 60px;
+    height: auto;
+  }
+  .right-info-box {
+    padding: 45px;
+    height: auto;
+  }
+  .title {
+    font-size: 45px;
+    margin: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .left-info-box {
+    padding: 60px;
+    height: auto;
+
+  }
+  .right-info-box {
+    padding: 45px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .left-info-box {
+    padding: 35px;
+  }
+  .right-info-box {
+    padding: 20px;
+  }
+}
+.column {
+  padding: 0 !important;
+}
+.columns {
+  /* width: 85%; */
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+.home-grid-title {
+  position: absolute;
+  color: white;
+  text-shadow: 2px 1px 8px rgba(0,0,0,0.53);
+  font-size: 55px;
+  margin-top: -335px;
+  text-align: center;
+  line-height: 55px;
+  width: 80%;
+  padding-left: 50px;
+}
+.flavors-end {
+  font-size: 30px;
+  padding: 25px;
+  font-family: 'Satisfy', cursive;
+}
+.card {
+  box-shadow: none;
+  /* width: 300px; */
+}
+.half-content.half-left {
+  background-color: #C5168D;
+  color: white;
+}
+.half-content.half-right {
+  background-color: #3E327A;
+  color: white;
+}
+.flavor {
+  padding: 40px;
+  display: inline-block;
+}
+.flavor-container {
+  width: 100%;
+  text-align: center;
+  background-color: #f6e2f145;
+}
+.flavor-image {
+  position: relative;
+  width: 250px;
+}
+.flavor-image img {
+  border-radius: 50%;
+  height: auto;
+  -webkit-box-shadow: 4px 3px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 3px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 4px 3px 19px -5px rgba(0,0,0,0.75);
+}
+.flavor-image:hover + .flavor-ingredients {
+  height: 255px;
+  margin-top: -258px;
+  text-indent: 0%;
+  display: inline;
+  margin-left: -135px;
+}
+.flavor-ingredients:hover {
+  height: 255px;
+  margin-top: -258px;
+  text-indent: 0%;
+  display: inline;
+  margin-left: -135px;
+}
+.flavor-ingredients {
+  width: 275px;
+  height: 255px;
+  background-color: #EC857D;
+  color: white;
+  position: absolute;
+  text-indent: 1000%;
+  overflow: hidden;
+  padding: 15px;
+  display: none;
+}
+.flavor-name {
+  color: #EC857D;
+  text-align: center;
+  width: 250px;
+  font-size: 26px;
+}
+.ingredients-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.ingredients-list {
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.overlay {
+  position: relative;
+}
+.overlay:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+}
+.overlay:hover:after {
+  opacity: 0;
+  cursor: pointer;
+}
+.pink:after {
+  background-color: #C5168D;
+}
+.purple:after {
+  background-color: #3E327A;
+}
+.peach:after {
+  background-color: #EC857D;
+}
+.peach {
+  background-color: #EC857D;
+}
+.purple {
+  background-color: #3E327A;
+}
+.pink {
+  background-color: #C5168D;
+  margin-top: 0;
+}
+figure {
+  /* height: 450px; */
+  height: 600px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.full-content {
+  width: 100%;
+  display: inline-flex;
+  background-color: white;
+}
+.half-content {
+  width: 50%;
+}
+
+/* Footer Styles */
+.menu-footer-nav-container, .menu-social-media-container {
+  /* background-color: #5a5a5a; */
+}
+.menu-footer-nav-container a, .menu-social-media-container a {
+  color: white;
+  padding: 10px 15px 8px 15px;
+}
+.menu-footer-nav-container a:hover, .menu-social-media-container a:hover {
+  background-color: #C5168D;
+  padding: 10px 15px 8px 15px;
+  color: white;
+}
+.menu-footer-nav-container li, .menu-social-media-container li, .menu-privacy-menu-container li {
+  display: inline-flex;
+}
+.menus {
+  background-color: #303030;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  z-index: 5;
+  padding-top: 15px;
+  -webkit-box-shadow: 6px 4px 21px -6px rgba(0,0,0,0.8);
+  -moz-box-shadow: 6px 4px 21px -6px rgba(0,0,0,0.8);
+  box-shadow: 6px 4px 21px -6px rgba(0,0,0,0.8);
+}
+.menu-privacy-menu-container {
+  padding: 10px 15px 8px 15px;
+}
+.menu-privacy-menu-container a {
+  color: white;
+  font-weight: lighter;
+  font-size: 90%;
+  padding: 0 10px 10px 10px;
+}
+.menu-privacy-menu-container a:hover {
+  background-color: #C5168D;
+  color: white;
+  padding: 0 10px 10px 10px;
+}
+.menu-privacy-menu-container li:not(:first-child):before {
+    content: " | ";
+    color: white;
+}
+.footer-copyright {
+  background-color: #C5168D;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wall.png");
+  color: white;
+  min-height: 60px;
+  padding-top: 20px;
+}
+footer{
+    display: block;
+    text-align: center;
+    font-size: 0.75em;
+    bottom:0;
+    width: 100%;
+    clear: both;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sass Overwrite */
+.home-content {
+  max-width: none !important;
+  width: auto;
+}
+.title:not(:last-child) {
+  margin-bottom: 0 !important;
+}
